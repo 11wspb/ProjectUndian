@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Doorprize - PT. Astra Motor. Tbk</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/doorprize.min.css" rel="stylesheet">
+  <link href="css/doorprize.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+
+      <div class="logo" style="margin-bottom: 70px;">
+        <center>
+          <img src="img/astra-motor.jpeg" alt="No Gambar" height="100px;">
+        </center>
+      </div>
+
+      <center>
+        <div class="alert alert-primary text-center" role="alert" style="margin-bottom: 50px; max-width: 800px;">
+          Silahkan isi data <b>Kode unik, nama, alamat dan no. telepon</b> dibawah ini dengan benar!
+        </div>
+      </center>
+
+      <!-- Contact Section Form -->
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+          	<div class="control-group">
+              <div class="form-group">
+                <label for="exampleInputkode">Kode Unik</label>
+                <input type="text" class="form-control" id="kodeunik" required="">
+                <small id="kodeHelp" class="form-text text-muted">Silahkan isi kode unik yang tertera pada sparepart anda.</small>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label for="exampleInputnama">Nama</label>
+                <input type="text" class="form-control" id="name" required="required" data-validation-required-message="Masukkan nama anda">
+                <small id="nameHelp" class="form-text text-muted">Masukkan nama anda.</small>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label for="exampleInputnama">Alamat</label>
+                <input type="text" class="form-control" id="alamat" required="required" data-validation-required-message="Masukkan alamat anda">
+                <small id="alamatHelp" class="form-text text-muted">Masukkan alamat anda.</small>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label for="exampleInputnama">No. Telepon</label>
+                <input type="tel" class="form-control" id="phone" required="required" data-validation-required-message="Masukkan nomor telepon anda">
+                <small id="phoneHelp" class="form-text text-muted">Masukkan no. telepon anda.</small>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div id="success"></div>
+            <div class="form-group text-center">
+              <button type="submit" class="btn btn-outline-primary btn-xl" data-toggle="modal" data-target="#berhasil" id="sendMessageButton">Kirim</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Tambah data-->
+  <div class="modal fade" id="berhasil" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <div class="modal-body text-center">
+          <div class="spinner-border text-success" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <br>
+          <br>
+          <p class="font-italic text-muted">Silahkan menunggu dalam  <strong class="countdown text-dark font-weight-bold">5 </strong> detik</p>
+          <br>
+          <button type="submit" class="btn btn-outline-primary" data-toggle="modal" data-target="#status">Cek Status</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="status" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <div class="modal-body text-center">
+         <p class="text-muted">Selamat Anda telah memenangkan   <strong class="countdown text-dark font-weight-bold"> PULSA sebesar 50.000</strong></p>
+         <br>
+         <center>
+          <img src="img/voucer.png" alt="No Gambar" height="150px;" style="max-width: 100%;">
+         </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <!-- Footer Location -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">Sulawesi Selatan
+            <br>Makassar, Indonesia, 90241</p>
+        </div>
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Find Us</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-instagram"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-linkedin-in"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-dribbble"></i>
+          </a>
+        </div>
+
+        <!-- Footer About Text -->
+        <div class="col-lg-4">
+          <h4 class="text-uppercase mb-4">Astra Motor</h4>
+          <p class="lead mb-0">FLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; PT. Astra Motor. Tbk</small>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/doorprize.min.js"></script>
+</body>
+
+</html>
